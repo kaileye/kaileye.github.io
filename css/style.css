@@ -1,0 +1,16 @@
+body {
+    background: url(../images/background.png);
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+}
