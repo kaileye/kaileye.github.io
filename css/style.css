@@ -1,5 +1,21 @@
 body {
     background: url(../images/background.png);
+    padding-top: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.75em;
 }
 
 .navbar .navbar-nav {
@@ -11,6 +27,32 @@ body {
     text-align: center;
 }
 
-.title {
+.navbar-custom {
+    background: #283861;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
     font-weight: bold;
+    border: none;
+}
+
+.navbar-custom .navbar-nav li a {
+    color: white;
+    font-size: 1.2em;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+    color: #17B3A1;
+}
+
+header .container-fluid {
+    padding-top: 40px;
+}
+
+.colored {
+    background: #17B3A1;
+    color: white;
+}
+
+.name {
+    font-size: 5em;
 }
