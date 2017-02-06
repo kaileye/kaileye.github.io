@@ -30,6 +30,10 @@ p {
     font-size: 1.5em;
 }
 
+textarea {
+    resize: none;
+}
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
