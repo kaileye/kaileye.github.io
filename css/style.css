@@ -34,6 +34,20 @@ textarea {
     resize: none;
 }
 
+hr.gradient {  
+    border: 0;
+    height: 2px; 
+    background-image: linear-gradient(to right, #f0f0f0, #8c8c8c, #f0f0f0);
+    width: 25%;
+}
+
+hr.gradient-colored {
+    border: 0;
+    height: 2px; 
+    background-image: linear-gradient(to right, #17B3A1, #f0f0f0, #17B3A1); 
+    width: 25%;
+}
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
