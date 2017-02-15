@@ -37,14 +37,14 @@ textarea {
 hr.gradient {  
     border: 0;
     height: 5px; 
-    background-image: linear-gradient(to right, #f0f0f0, #8c8c8c, #f0f0f0);
+    background-image: linear-gradient(to right, #ffffff, #444444, #ffffff);
     width: 25%;
 }
 
 hr.gradient-colored {
     border: 0;
     height: 5px; 
-    background-image: linear-gradient(to right, #17B3A1, #f0f0f0, #17B3A1); 
+    background-image: linear-gradient(to right, #17B3A1, #ffffff, #17B3A1); 
     width: 25%;
 }
 
